@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Phúc - hoho</title>
+        <meta charset = "utf - 8">
+        <style>
+           .portfolio-header {
+    text-align: center; /* Căn giữa chữ */
+    margin-bottom: 50px;
+}
+
+.portfolio-header h2 {
+    position: relative; /* Làm gốc để căn chỉnh thanh gạch */
+    display: inline-block; /* Để thanh gạch chỉ dài theo chữ */
+    padding-bottom: 15px; /* Khoảng cách từ chữ xuống thanh gạch */
+}
+
+.portfolio-header h2::after {
+    content: ""; /* Bắt buộc phải có */
+    position: absolute;
+    bottom: 0;
+    left: 50%; /* Đẩy sang giữa */
+    transform: translateX(-50%); /* Căn chuẩn giữa theo trục X */
+    
+    width: 60px; /* Độ dài thanh gạch */
+    height: 4px; /* Độ dày thanh gạch */
+    background-color: #4db3a4; /* Màu xanh như hình */
+}
+            
+        </style>
+        
+    </head>
+    <body>
+        <div class="portfolio-header">
+            <h2>MY PORTFOLIO</h2>
+        </div>
+    </body>
+</html>

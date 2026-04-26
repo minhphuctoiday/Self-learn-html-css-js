@@ -1,0 +1,46 @@
+<!--
+1. Padding: phần đệm
+padding top: 10 là kiểu đệm thêm vào 10 px ở trên
+Viết tắt giá trị: padding 10px = padding cả 4 hướng
+2. Border: Viền ôm lấy box
+mặc định kiểu solid là 2px
+3. Margin: Giải quyết bài toán. Đẩy 2 box xa nhau ra. 2 cái trước chỉ làm dày lên th
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Phúc - 2005</title>
+        <meta charset ="utf-8">
+        <link rel = "stylesheet" href = "cssVitri.css">
+        <style>
+            .box{
+                width: 100px;
+                height: 100px;
+                color: white;
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                float: left;
+            }
+            .box1 {
+                background-color: red;
+                margin-left: 20px
+            }
+            .box2 {
+                background-color: blue;
+            }
+            .box3 {
+                background-color: green;
+                margin-left: 600px;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box box1">Box 1</div>
+        <div class="box box2">Box 2</div>
+        <div class="box box3">Box 3</div>
+        
+    </body>
+</html>
